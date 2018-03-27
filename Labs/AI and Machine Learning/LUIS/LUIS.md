@@ -56,13 +56,15 @@ The first step in creating an intelligent language model with LUIS is to provisi
 
 1. Open the [LUIS portal](https://www.luis.ai/) in a browser. If you aren't already signed in, click **Sign in or create an account** and sign in with your Microsoft account. If you are prompted to "let this app access your info," review the permissions requested and click **Yes**. Additionally, if you are prompted to provide additional details such as the country you live in and the company you work for, fill in the information and click **Continue**. You can also skip over any welcome screens that are presented.
 
-    ![Signing in to LUIS](Images/luis-click-login.png)
+    ![Signing in to LUIS](https://user-images.githubusercontent.com/1689183/37998329-361bd332-31ec-11e8-81c6-33af5622cd65.png)
+    You may need to scroll down further and click "Create LUIS app" to continue.
+![image](https://user-images.githubusercontent.com/1689183/37998595-1c421fd8-31ed-11e8-9234-20c3091fe5ad.png)
 
-    _Signing in to LUIS_
+    _Signing in to LUIS_
 
 1. Click **New App**. 
 
-    ![Creating a LUIS application](Images/luis-select-create-new-app.png)
+    ![Creating a LUIS application](Images/luis-select-create-new-app.png)
 
     _Creating a LUIS application_
  
@@ -91,9 +93,9 @@ In the language of LUIS, *intents* represent actions such as "search" or "find,"
 
     _Defining an intent_
 
-1. Click **Entities** in the menu on the left. Then click **Add custom entity** to add a a custom entity.
+1. Click **Entities** in the menu on the left. Then click **Create new entity** to add a custom entity.
 
-    ![Adding a custom entity](Images/luis-click-new-entity-01.png)
+    ![Adding a custom entity](https://user-images.githubusercontent.com/1689183/37998642-613e0a70-31ed-11e8-9cb5-ec81675b4b41.png)
 
     _Adding a custom entity_ 
 
@@ -123,9 +125,9 @@ In the language of LUIS, *intents* represent actions such as "search" or "find,"
 
 	The phrase "get soccer news" is now associated with the SearchNews intent, and LUIS will understand the word "soccer" as the target of your action based on the NewsTopic entity.
 
-1. Click **Train & Test** in the menu on the left. Then click **Train Application** to train the model. Training should only take a few seconds. 
+1. Then click the **Train Application** button in the top right to train the model. Training should only take a few seconds. 
  
-    ![Training a LUIS model](Images/luis-click-train.png)
+    ![Training a LUIS model](https://user-images.githubusercontent.com/1689183/37998697-a3e0f982-31ed-11e8-972d-327a41ddcbd1.png)
 
     _Training a LUIS model_
 
@@ -139,9 +141,9 @@ In the language of LUIS, *intents* represent actions such as "search" or "find,"
 
 1. Click **Train & Test** in the menu on the left. Then click **Train Application** to train the model again. 
  
-1. Test the model by typing "Find baseball news" into the test-utterance field and pressing **Enter**. Confirm that SearchNews is the top-scoring intent.
+1. Test the model by clicking on the "Test" button on the top right and entering "find baseball news" and pressing **Enter**. Confirm that SearchNews is the top-scoring intent.
 
-    ![Testing an utterance](Images/luis-interactive-test-01.png)
+    ![Testing an utterance](https://user-images.githubusercontent.com/1689183/37998764-f270c3f2-31ed-11e8-952f-50c8b8feba73.png)
 
     _Testing an utterance_ 
 
